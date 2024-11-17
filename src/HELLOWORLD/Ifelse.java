@@ -2,15 +2,17 @@ package HELLOWORLD;
 
 import java.util.Scanner;
 
-public class MATH {
+public class Ifelse {
 	public static void main(String[] args) {
+
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Nhap vao canh a: ");
+		System.out.println("Input a");
 		int a = scanner.nextInt();
-		System.out.println("The tich hinh lap phuong la " + Math.pow(a, 3));
+		if (a > 10) {
+			System.out.println("You good");
+		} else {
+			System.out.println("You fails");
+		}
 
-		scanner.close();
 	}
-
 }
-s
